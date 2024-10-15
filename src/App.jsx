@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 import './App.css'
 import MessageList from './components/MessageList'
 import MessageInput from './components/MessageInput'
-import store from './store/store';
+import store from './store/storee';
 
 function App() {
   const [count, setCount] = useState(0)
